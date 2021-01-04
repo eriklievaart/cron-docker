@@ -1,5 +1,5 @@
 #!/bin/dash
 set -e
 
-docker build . -t lievaart/cron
+docker build . -t lievaart/cron $@
 

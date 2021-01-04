@@ -1,8 +1,5 @@
 
-from alpine
-
-copy files /root
-run /root/install.sh
-
+from lievaart/alpine
+copy files/cmd.sh /root/cmd.sh
 cmd /root/cmd.sh
 
